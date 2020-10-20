@@ -1,0 +1,31 @@
+{
+  "name": "jcj-ap",
+  "version": "0.0.23",
+  "description": "",
+  "main": "./build/index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "author": "guandjoy",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "@babel/preset-env": "^7.7.6",
+    "@babel/preset-react": "^7.7.4",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.3.0",
+    "style-loader": "^1.0.1",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.56",
+    "@material-ui/pickers": "3.2.10",
+    "material-ui": "^0.20.2",
+    "material-ui-with-sass": "^0.1.17",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0"
+  }
+}
